@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">LineBarChart</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="title_home">Home</string>
+
+
+    <string name="logout">logout</string>
+    <string name="logout_ok">LOGOUT</string>
+    <string name="would_you_like_to_logout">would  you like to logout</string>
+    <string name="cancel">Cancel</string>
+    <string name="Splash">Splash</string>
+    <string name="Intro">Introslider</string>
+
+    <!--Purchase Flow Strings-->
+    <string name="label_rupee">₹</string>
+
+    <!--Manage Admin-->
+
+    <!--Manage new request-->
+    <string name="close_drawer">close_drawer</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="title_activity_key_borad_class">KeyBoradClass</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="profile">Profile</string>
+    <string name="device">Devices</string>
+    <string name="menu">Menu</string>
+
+
+    <string name="temperature">Temperature</string>
+
+
+</resources>

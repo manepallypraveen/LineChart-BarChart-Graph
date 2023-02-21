@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#F8F7F7</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="trans">#80000000</color>
+
+    <!--    <color name="purple_200">#FFBB86FC</color>-->
+<!--    <color name="purple_500">#FF6200EE</color>-->
+<!--    <color name="purple_700">#FF3700B3</color>-->
+<!--    <color name="teal_700">#FF018786</color>-->
+    <color name="color_text_logout">#1C2939</color>
+<!--    <color name="color_dark_purpule">#805FB5</color>-->
+    <color name="color_background_card">#FFFFFFFF</color>
+
+    <!--Light Mode-->
+
+    <!--Text Colors-->
+
+    <!--Icon Color-->
+
+    <!--Light Theme Colors-->
+    <!--Color primary (light)-->
+    <!--Color primary variant (light)-->
+    <!--Color error (light)-->
+
+    <!--Color secondary-->
+    <!--Color secondary variant-->
+    <!--Color on secondary (light), color on background (light),-->
+    <!--color on surface (light)-->
+    <!--Color surface (light), color on error (light), -->
+    <!--color on surface (dark), color on surface (dark)-->
+
+    <!--Dark Theme Colors-->
+    <!--Color primary (dark)-->
+    <!--Color primary variant (dark)-->
+    <!--Color surface (dark)-->
+    <!--Color error (dark)-->
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="lightorange">#FDEDE8</color>
+    <color name="lightgray">#F6FBFF</color>
+
+    <color name="grey4">#D1D1D1</color>
+
+    <color name="graph_green_color">#95C121</color>
+    <color name="nitro_blue">#3FB8E1</color>
+    <color name="nitro_blue1">#CFE5ED</color>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp10"
+            android:layout_marginHorizontal="@dimen/dp20"
+            android:padding="@dimen/dp5"
+            android:background="@drawable/bg_layout_corner_rounded_consult"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dayGraph"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="@dimen/dp5"
+                android:layout_weight="0.25"
+                android:background="@drawable/bg_ripple_nitroblue_10dp"
+                android:gravity="center"
+                android:text="Day"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:id="@+id/weekGraph"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="@dimen/dp5"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:text="Week"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:id="@+id/monthGraph"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="@dimen/dp5"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:text="Month"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:id="@+id/yearGraph"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="@dimen/dp5"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:text="Custom"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp16" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="8dp" />
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChart"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_above="@+id/seekBar1" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

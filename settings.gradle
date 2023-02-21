@@ -1,0 +1,2 @@
+rootProject.name = "LineBarChart"
+include ':app'

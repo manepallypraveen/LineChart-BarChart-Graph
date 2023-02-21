@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="showInfoIcon"
+            type="Boolean" />
+
+        <variable
+            name="showNotificationIcon"
+            type="Boolean" />
+
+        <variable
+            name="title"
+            type="String" />
+
+        <variable
+            name="showBackArrow"
+            type="Boolean" />
+
+        <variable
+            name="showTitle"
+            type="Boolean" />
+
+        <variable
+            name="showCartIcon"
+            type="Boolean" />
+
+
+        <variable
+            name="showCancelOrder"
+            type="Boolean" />
+
+        <variable
+            name="showLink"
+            type="Boolean" />
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp"
+            app:elevation="0dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp56">
+
+<!--                <androidx.appcompat.widget.AppCompatImageView-->
+<!--                    android:id="@+id/iv_back"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:padding="@dimen/dp5"-->
+<!--                    android:visibility="@{showBackArrow ? View.VISIBLE : View.GONE}"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:srcCompat="@drawable/ic_arrow" />-->
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/nitro_netwrk_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp40"
+                    android:src="@drawable/ic_home"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+<!--        android:visibility="@{showInfoIcon? View.VISIBLE : View.GONE}"    -->
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>
+
+

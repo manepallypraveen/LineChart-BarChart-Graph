@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="Theme.BottomNavWithSideNav" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/nitro_blue</item>
+        <item name="colorPrimaryVariant">@color/nitro_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/nitro_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <!--    <style name="Theme.BottomNavWithSideNav.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">-->
+    <!--        <item name="windowActionBar">false</item>-->
+    <!--        <item name="windowNoTitle">true</item>-->
+    <!--        <item name="android:windowContentOverlay">@null</item>-->
+    <!--        <item name="android:windowBackground">@drawable/splash_logo</item>-->
+    <!--        <item name="colorPrimaryDark">@color/blue_clr</item>-->
+    <!--    </style>-->
+
+
+    <style name="Theme.BottomNavWithSideNav.Dialog.Alert" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:background">@color/color_background_card</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialogText</item>
+        <item name="materialAlertDialogBodyTextStyle">
+            @style/BodyTextAppearance.MaterialComponents.Body2
+        </item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="MaterialAlertDialogText" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/color_text_logout</item>
+    </style>
+
+    <style name="BodyTextAppearance.MaterialComponents.Body2" parent="@style/MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:textColor">@color/color_text_logout</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/nitro_blue</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/nitro_blue</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
